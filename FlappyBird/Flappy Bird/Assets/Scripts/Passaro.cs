@@ -5,6 +5,8 @@ using UnityEngine;
 public class Passaro : MonoBehaviour
 {
 
+    private float velocidade = 3;
+
     Rigidbody2D fisica;
 
     private void Awake()
@@ -24,6 +26,6 @@ public class Passaro : MonoBehaviour
 
     void Impulsionar()
     {
-        this.fisica.AddForce(Vector2.up * 3, ForceMode2D.Impulse);
+        this.fisica.AddForce(Vector2.up * velocidade, ForceMode2D.Impulse);
     }
 }
