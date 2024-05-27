@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class Chao : MonoBehaviour
+public class Fundo : MonoBehaviour
 {
     [SerializeField]
-    private float velocidade = 0.9f;
+    private float velocidade = 0.4f;
 
     private Vector3 posicaoInicial;
     private float tamanhoDaImagemNaCena;
